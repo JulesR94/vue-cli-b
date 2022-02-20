@@ -13,6 +13,12 @@ const routes = [
     component: () =>
       import("../views/About.vue"),
   },
+  {
+    path: "/services",
+    name: "services",
+    component: () =>
+      import("../views/Services.vue"),
+  },
 ];
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),

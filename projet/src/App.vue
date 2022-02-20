@@ -2,7 +2,9 @@
 <header>
 <h1>AWA</h1>
   <div id="nav">
-    <router-link to="/">Home</router-link> 
+    <router-link to="/">Home</router-link>
+    <router-link to="/services">Services</router-link> 
+ 
     <!-- <router-link to="/services">Nos services</router-link> -->
     <router-link to="/about">About</router-link> 
    
@@ -18,6 +20,10 @@
 
 
 <style scoped>
+@font-face {
+  font-family: myfont;
+  src: url("../police/AlfaSlabOne-Regular.ttf");
+}
 header{
 background-color: #FFA945;
 }
