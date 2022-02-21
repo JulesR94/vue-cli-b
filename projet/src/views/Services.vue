@@ -6,6 +6,8 @@
             <a href="">NOS BOISSONS</a>
             <a href="">VENTE A EMPORTER</a>
             <a href="">CONTACT</a>
+            <b-button>I am a Button</b-button>
+            <b-button href="#">I am a Link</b-button>
         <Footer />
         </div>
   </div>

@@ -20,7 +20,6 @@
             <li><a href="">Contact</a></li>
             <li><a href="">Plan du site</a></li>
         </ul>
-       
     </nav>
     <p>Copyright &copy; 2021</p>
     <div id="icon2">
