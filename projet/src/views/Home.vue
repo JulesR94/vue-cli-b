@@ -6,9 +6,9 @@
         <p>Amoureux de cuisine et des saveurs, nous avons naturellement décidé de faire de notre passion un métier, c’est grace à cela que nous pouvons vous proposer aujourd’hui un service de traiteur pour vos événements mais également de vente à emporter.
         </p>
     </div>
-    <div class="button">
-<button type="button">DEVIS</button>
-</div>
+   <span>
+  <button type="button" class="btn btn-outline-primary">DEVIS</button>
+   </span>
 <footer>
     <nav>
         <ul>
@@ -115,15 +115,12 @@ footer{
 button{
       background-color: #cf4a11;
       color: #299934;
+      margin: 10% 10% 10% 45%;
       border-radius: 10px;
       font-family: myfont;
       width: 160px;
       height: 60px;
       margin-top: 30px;
-      margin-bottom: 50px;
-      display: flex; 
-      justify-content: center;
-      align-items: center;
-       
+      margin-bottom: 50px;     
   }
 </style>
