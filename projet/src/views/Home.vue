@@ -115,12 +115,13 @@ footer{
 button{
       background-color: #cf4a11;
       color: #299934;
-      margin: 10% 10% 10% 45%;
       border-radius: 10px;
-      font-family: myfont;
-      width: 160px;
-      height: 60px;
-      margin-top: 30px;
-      margin-bottom: 50px;     
+      font-family: myfont;   
+  }
+  span{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px; 
   }
 </style>
