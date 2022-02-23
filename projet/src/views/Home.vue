@@ -1,13 +1,35 @@
 <template>
   <div class="home">
     <img alt="homepage" src="../assets/AfriknFusion_AfriknMixAgneau.png">
+    
+    <!-- <span><iframe width="560" height="315" src="https://www.youtube.com/embed/D-3ZMt4y4Zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span> -->
+
+    <span><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#oModalYouTube">
+  Ouvrir la vidéo
+</button></span>
+<div class="modal fade" id="oModalYouTube" tabindex="-1" aria-labelledby="oModalYouTubeTitre" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="oModalYouTubeTitre">Mariage</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+      </div>
+      <div class="modal-body">
+        <div class="ratio ratio-16x9">
+          <iframe id="oVideoYouTubeiFrame" src="https://www.youtube.com/embed/D-3ZMt4y4Zk" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
     <div class="present">
         <h2>Qui sommes nous?</h2>
         <p>Amoureux de cuisine et des saveurs, nous avons naturellement décidé de faire de notre passion un métier, c’est grace à cela que nous pouvons vous proposer aujourd’hui un service de traiteur pour vos événements mais également de vente à emporter.
         </p>
     </div>
    <span>
-  <button type="button" class="btn btn-outline-primary">DEVIS</button>
+  <button type="button" class="btn btn-outline-primary">Devis</button>
    </span>
 <footer>
     <nav>
@@ -122,6 +144,15 @@ button{
     display: flex;
       justify-content: center;
       align-items: center;
-      margin-bottom: 15px; 
+      margin-top:20px;
+  }
+  span button{
+    margin-bottom: 15px;
+  }
+  span iframe{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 </style>

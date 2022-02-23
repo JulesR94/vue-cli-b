@@ -35,6 +35,7 @@
         <li class="nav-item">
           <a class="nav-link" style="color:black;" href="#">Contact</a>
         </li>
+        <router-link to="/about">about</router-link>
 
       </ul>
       <form class="d-flex">

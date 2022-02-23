@@ -1,0 +1,30 @@
+{   
+    "time": 
+    {   "updated": "Feb 10, 2022 11:36:00 UTC", 
+        "updatedISO": "2022-02-10T11:36:00+00:00", 
+        "updateduk": "Feb 10, 2022 at 11:36 GMT" 
+    }, 
+    "disclaimer": "This data was produced from fruits", 
+    "chartName": "contact", 
+    "contact":
+    [
+        { 
+        "id":1,
+        "nom": "Revil",
+        "prenom": "Jules",
+        "mail": "revil?j@hotmail.fr"
+        },
+        { 
+        "id":2,
+        "nom": "Revil",
+        "prenom": "Jules",
+        "mail": "revil?j@hotmail.fr"
+            },
+            { 
+        "id":3,
+        "nom": "Revil",
+        "prenom": "Jules",
+        "mail": "revil?j@hotmail.fr"
+                }
+    ]
+}
