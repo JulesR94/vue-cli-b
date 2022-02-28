@@ -1,5 +1,6 @@
 <template>
     <div class="contact">
+        <h1>test contact</h1>
     <Formulaires v-for="(toto,index) in details" :key="index" :nom="toto.nom" :prenom="toto.prenom" :mail="toto.mail"/>
     </div>
 </template> 

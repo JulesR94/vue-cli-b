@@ -1,20 +1,22 @@
 <template>
   <div class="about">
   <Contact />
-  <h1>This is an about page</h1>
-  <h2>TEST</h2>
+  <Formulaires />
+  <h2>Test about view</h2>
   </div>
 
 </template>
 
 <script>
 import Contact from '@/components/Contact.vue'
+import Formulaires from '@/components/Formulaires.vue'
+
 import axios from 'axios'
 
 export default {
     name: 'details',
     components: {
-        Contact
+        Contact, Formulaires
     },
        data () {
         return {
@@ -22,7 +24,7 @@ export default {
         }
     },
      created () {
-          axios.get('http://localhost:8082/details.json') 
+          axios.get('http://localhost:8080/details.json') 
         .then(response => {
           this.contact = response.data.contact })
           .catch(e => {
