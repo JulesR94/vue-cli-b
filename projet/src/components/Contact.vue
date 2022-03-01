@@ -1,6 +1,5 @@
 <template>
    <div>
-       <p>test formualaires</p>
     <h1>{{nom}}</h1>
     <p>{{prenom}}</p>
     <p>{{mail}}</p>

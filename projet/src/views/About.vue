@@ -1,7 +1,6 @@
 <template>
   <div class="about">
   <Formulaire />
-  <h2>Test about view</h2>
   </div>
 
 </template>

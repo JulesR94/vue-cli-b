@@ -1,6 +1,5 @@
 <template>
     <div class="contact">
-        <h1>test contact</h1>
     <Contact v-for="(contact,index) in contacts" :key="index" :nom="contact.nom" :prenom="contact.prenom" :mail="contact.mail"/>
     </div>
 </template> 
@@ -22,7 +21,7 @@ components: {
     },
     created () {
         axios
-        .get('http://localhost:8084/details.json') 
+        .get('http://localhost:8080/details.json') 
         .then(response => (this.contacts = response.data.contacts) )
     },
 }
